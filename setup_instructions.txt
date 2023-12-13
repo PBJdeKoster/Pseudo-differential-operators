@@ -1,0 +1,15 @@
+We use windons, python and pycharm.
+
+To set up and be able to run everything, we install a virtual environment to ensure the correct versions are used.
+Follow the following steps
+
+1) Clone the main branch into a desired folder
+
+2) Create a virtual environment using git bash:
+" python -m venv venv "
+
+3) Activate the virtual environment:
+" source venv/Source/activate "
+
+4) In the virtual environment, install the depenencies:
+" python -m pip install -r requirements.txt "
