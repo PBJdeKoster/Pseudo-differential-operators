@@ -17,12 +17,8 @@ multiplication.
 '''
 
 from sympy import *
-from Partial_Integrator_to_test_function_mod \
+from Modules.Partial_Integrator_to_test_function_mod \
     import Partially_integrate_to_test_function
-import sys
-
-sys.path.append('./../')
-sys.path.append('./../Modules/')
 
 # Variables, with u_t = K(u)
 x, t, k, y = symbols('x t k y')

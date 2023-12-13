@@ -23,13 +23,9 @@ and
 """
 
 from sympy import *
-import sys
+from Modules.PDE_initialisation import *
+from Modules.LaxPairTester_mod import Lt_Psi, ALmLA, Check_Lax_equation
 
-from PDE_initialisation import *
-from LaxPairTester_mod import Lt_Psi, ALmLA, Check_Lax_equation
-
-sys.path.append('./../')
-sys.path.append('./../Modules/')
 
 ''' Set the PDE of interest. If the PDE is not in the list below, then
 define Q_t and Q yourself.

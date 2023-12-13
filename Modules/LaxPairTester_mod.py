@@ -26,9 +26,9 @@ from sympy import symbols, Function, diff, I, simplify, \
     Matrix, expand, integrate, pprint, zeros, Integral, sin
 import sys
 
-from Partial_Integrator_to_test_function_mod \
+from Modules.Partial_Integrator_to_test_function_mod \
     import Partially_integrate_to_test_function
-from Substitute_inside_integral_mod \
+from Modules.Substitute_inside_integral_mod \
     import Substitute_inside_integral
 
 sys.path.append('./../')

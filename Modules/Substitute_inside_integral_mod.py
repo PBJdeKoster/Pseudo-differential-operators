@@ -5,8 +5,7 @@ Created on Wed Jun 24 10:34:37 2020
 @author: Pascal de Koster
 """
 
-from sympy import symbols, Function, diff, I, simplify, \
-Matrix, expand, integrate, pprint, Integral, preorder_traversal
+from sympy import *
 
 ''' Substitute_inside_integral
 Input arguments

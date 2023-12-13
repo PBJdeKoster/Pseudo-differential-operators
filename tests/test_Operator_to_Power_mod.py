@@ -8,11 +8,8 @@ Testing the module Operator_to_Power_mod
 """
 
 from sympy import *
-import sys
 
-sys.path.append('./')
-
-from Operator_to_Power_mod import Operator_to_Power, Operator_Multiplication
+from Modules.Operator_to_Power_mod import Operator_to_Power, Operator_Multiplication
 
 x = symbols('x')
 u = Function('u')(x)

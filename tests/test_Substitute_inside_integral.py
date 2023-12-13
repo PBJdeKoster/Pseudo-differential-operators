@@ -6,13 +6,10 @@ Created on Wed Jun 24 10:34:37 2020
 """
 
 from sympy import *
-import sys
 
-from Substitute_inside_integral_mod \
+from Modules.Substitute_inside_integral_mod \
     import Substitute_inside_integral
 
-sys.path.append('./../')
-sys.path.append('./../Modules/')
 
 
 ''' Some code for testing Substitute_inside_integral
